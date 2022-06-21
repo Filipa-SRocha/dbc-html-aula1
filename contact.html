@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Contacto</title>
+	</head>
+
+	<body>
+		<header>
+			<a href="/"><img width="50" src="./img/cogumelo.jpeg" alt="Logo" /></a>
+			<span>Melhores alunos do Vemser de todos os tempos</span>
+
+			<nav>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Sobre</a></li>
+					<li><a href="#">Contacto</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<form>
+			<label for="name">Digite seu nome completo: </label>
+			<input name="name" placeholder="nome completo" type="text" />
+			<br />
+			<br />
+
+			<label for="email">Digite seu E-mail: </label>
+			<input name="email" placeholder="e-mail" type="email" />
+			<br />
+			<br />
+
+			<label for="contact-reason">Qual o motivo do contato </label>
+			<select name="contact-reason" id="contact-reason">
+				<option name="contact-reason" value="op1">HTML é easy demais!</option>
+				<option name="contact-reason" value="op2">Venha o CSS!</option>
+			</select>
+			<br />
+			<br />
+
+			<label for="message">Sua Mensagem:</label>
+			<br />
+			<textarea
+				name="message"
+				placeholder="Digite sua mensagem"
+				id="message"
+				cols="30"
+				rows="10"
+			></textarea>
+			<br />
+			<br />
+
+			<input type="submit" value="Salvar" />
+		</form>
+
+		<footer>
+			<nav>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Sobre</a></li>
+					<li><a href="#">Contacto</a></li>
+				</ul>
+			</nav>
+
+			<address>AV. Andarai 531 - Porto Alegre</address>
+		</footer>
+	</body>
+</html>
