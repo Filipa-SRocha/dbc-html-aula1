@@ -10,91 +10,97 @@
 
 	<body>
 		<header>
-			<div>
-				<a href="./home.html">
-					<img width="50" src="./img/cogumelo.jpeg" alt="Logo" />
-				</a>
-				<small>Melhores alunos do Vemser de todos os tempos</small>
-			</div>
+			<div class="container">
+				<div class="logo">
+					<a href="../home/home.html">
+						<img width="40" src="../img/cogumelo.png" alt="Logo" />
+					</a>
+					<small>Melhores alunos do Vemser de todos os tempos</small>
+				</div>
 
-			<nav>
-				<ul>
-					<li><a href="./home.html">Home</a></li>
-					<li><a href="./about.html">Sobre</a></li>
-					<li><a href="./contact.html">Contacto</a></li>
-				</ul>
-			</nav>
+				<nav>
+					<ul>
+						<li><a href="../home/home.html">Home</a></li>
+						<li><a href="../about/about.html">Sobre</a></li>
+						<li><a href="../contact/contact.html">Contacto</a></li>
+					</ul>
+				</nav>
+			</div>
 		</header>
 
 		<main>
-			<h1>Estamos aprendendo HTML e CSS com o melhor professor de todos</h1>
+			<section class="introduction">
+				<div class="container">
+					<h1>Estamos aprendendo HTML e CSS com o melhor professor de todos</h1>
+					<div class="mushroom-card-container">
+						<div class="mushroom-card">
+							<img width="80" src="../img/cogumelo.png" alt="cogumelo" />
+							<p>cogumelo 1</p>
+						</div>
 
-			<table>
-				<tr>
-					<td>
-						<img width="100" src="./img/cogumelo.jpeg" alt="cogumelo" />
-					</td>
-					<td><p>cogumelo 1</p></td>
-				</tr>
-				<tr>
-					<td>
-						<img width="100" src="./img/cogumelo.jpeg" alt="cogumelo" />
-					</td>
-					<td><p>cogumelo 2</p></td>
-				</tr>
-				<tr>
-					<td>
-						<img width="100" src="./img/cogumelo.jpeg" alt="cogumelo" />
-					</td>
-					<td>
-						<p>cogumelo 3</p>
-					</td>
-				</tr>
-			</table>
+						<div class="mushroom-card">
+							<img width="80" src="../img/cogumelo.png" alt="cogumelo" />
+							<p>cogumelo 2</p>
+						</div>
 
-			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ducimus
-				obcaecati assumenda aliquid labore architecto veritatis inventore esse
-				rerum non eveniet omnis aperiam ea consequatur quo ex hic recusandae at
-				autem deserunt, temporibus sapiente sed. Iure asperiores deserunt
-				voluptates qui ex necessitatibus veniam tempore ullam error quo optio
-				eligendi obcaecati quaerat nihil similique deleniti, quibusdam nemo
-				excepturi nulla unde sunt in.
-				<br />
-				<br />
+						<div class="mushroom-card">
+							<img width="80" src="../img/cogumelo.png" alt="cogumelo" />
+							<p>cogumelo 3</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="main-text">
+				<div class="container">
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ducimus
+						obcaecati assumenda aliquid labore architecto veritatis inventore
+						esse rerum non eveniet omnis aperiam ea consequatur quo ex hic
+						recusandae at autem deserunt, temporibus sapiente sed. Iure
+						asperiores deserunt voluptates qui ex necessitatibus veniam tempore
+						ullam error quo optio eligendi obcaecati quaerat nihil similique
+						deleniti, quibusdam nemo excepturi nulla unde sunt in.
+					</p>
+					<p>
+						Eaque, ab hic beatae natus possimus omnis, aut ullam esse minima,
+						delectus ipsum illo. Unde voluptas accusamus libero fuga culpa quis
+						quidem quas fugit impedit animi laboriosam nulla blanditiis a quo
+						suscipit necessitatibus officiis quod voluptatibus earum, iusto
+						dolores iste deserunt? Debitis est rem eum sequi sapiente incidunt
+						quasi corrupti eos, nobis vitae voluptates optio magnam odio
+						accusantium illo.
+					</p>
+				</div>
+			</section>
 
-				Eaque, ab hic beatae natus possimus omnis, aut ullam esse minima,
-				delectus ipsum illo. Unde voluptas accusamus libero fuga culpa quis
-				quidem quas fugit impedit animi laboriosam nulla blanditiis a quo
-				suscipit necessitatibus officiis quod voluptatibus earum, iusto dolores
-				iste deserunt? Debitis est rem eum sequi sapiente incidunt quasi
-				corrupti eos, nobis vitae voluptates optio magnam odio accusantium illo.
-			</p>
-
-			<section>
-				<h2>Endereço da DBC</h2>
-				<iframe
-					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3455.40891204842!2d-51.2034851851763!3d-29.996412836004005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951977775fc4c071%3A0x6de693cbd6b0b5e5!2sDBC%20Company!5e0!3m2!1sen!2sbr!4v1655839179261!5m2!1sen!2sbr"
-					width="600"
-					height="450"
-					style="border: 0"
-					allowfullscreen=""
-					loading="lazy"
-					referrerpolicy="no-referrer-when-downgrade"
-				></iframe>
+			<section class="map">
+				<div class="container">
+					<h2>Endereço da DBC</h2>
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3455.40891204842!2d-51.2034851851763!3d-29.996412836004005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951977775fc4c071%3A0x6de693cbd6b0b5e5!2sDBC%20Company!5e0!3m2!1sen!2sbr!4v1655839179261!5m2!1sen!2sbr"
+						width="600"
+						height="450"
+						style="border: 0"
+						allowfullscreen=""
+						loading="lazy"
+						referrerpolicy="no-referrer-when-downgrade"
+					></iframe>
+				</div>
 			</section>
 		</main>
 
 		<footer>
-			<nav>
-				<ul>
-					<li><a href="./home.html">Home</a></li>
-					<li><a href="./about.html">Sobre</a></li>
-					<li><a href="./contact.html">Contacto</a></li>
-				</ul>
-			</nav>
+			<div class="container">
+				<nav>
+					<ul>
+						<li><a href="./home.html">Home</a></li>
+						<li><a href="./about.html">Sobre</a></li>
+						<li><a href="./contact.html">Contacto</a></li>
+					</ul>
+				</nav>
 
-			<address>AV. Andarai 531 - Porto Alegre</address>
+				<address>AV. Andarai 531 - Porto Alegre</address>
+			</div>
 		</footer>
 	</body>
 </html>
