@@ -26,6 +26,7 @@ header,
 header a {
 	color: white;
 }
+
 header img {
 	padding: 10px;
 	background-color: white;
@@ -37,6 +38,11 @@ header img {
 
 header nav ul li {
 	display: inline;
+	margin-right: 15px;
+}
+
+header nav ul {
+	text-align: right;
 }
 
 footer a,

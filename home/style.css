@@ -37,6 +37,11 @@ header img {
 
 header nav ul li {
 	display: inline;
+	margin-right: 15px;
+}
+
+header nav ul {
+	text-align: right;
 }
 
 footer a,
